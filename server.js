@@ -11,8 +11,8 @@ const PORT = process.env.PORT || 3232;
 app.use(cors());
 app.use(express.json());
 
-// const dogeRouter = require('./routes/dogeRouter');
-// app.use('/doge', dogeRouter);
+const dogeRouter = require('./routes/dogeRouter');
+app.use('/doge', dogeRouter);
 
 app.listen(PORT, () => {
   console.log(`Listening on Port: ${PORT}`)
