@@ -8,7 +8,7 @@ const DeleteCtrl = require('../controllers/DogeCtrl/Delete');
 
 router.get('/', IndexCtrl.index);
 router.post('/', CreateCtrl.create);
-router.get('/', ReadCtrl.read);
+router.get('/:id', ReadCtrl.read);
 router.put('/:id', UpdateCtrl.update);
 router.delete('/:id', DeleteCtrl.delete);
 
