@@ -1,4 +1,4 @@
-const Doge = require('../../models/doge');
+const Doge = require('../../models/Doge');
 
 module.exports = {
   update
