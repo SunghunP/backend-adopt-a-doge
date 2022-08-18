@@ -17,7 +17,7 @@ app.get("/", (req, res)=> {
 })
 
 const dogeRouter = require('./routes/dogeRouter');
-app.use('/doge', dogeRouter);
+app.use('/doge/', dogeRouter);
 
 app.listen(PORT, () => {
   console.log(`Listening on Port: ${PORT}`)
