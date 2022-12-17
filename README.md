@@ -3,9 +3,8 @@ This is the repo for the backend of my Adopt a Doge website.
 This service provides a way for the client side to Create, Update, Read, and Delete all the dogs in the database.
 
 ###  Links
-Front End Repo: https://github.com/SunghunP/frontend-adopt-a-doge
-
-Api Domain: https://adopt-a-doge.onrender.com
+Front End Repo: https://github.com/SunghunP/frontend-adopt-a-doge <br>
+Api Domain: https://adopt-a-doge.onrender.com <br>
 
 ### Endpoints
 - GET /doge
